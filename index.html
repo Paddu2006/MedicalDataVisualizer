@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Data Visualizer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: #2c3e50; color: white; padding: 20px 0; }
+        .hero { background: #3498db; color: white; padding: 60px 0; text-align: center; }
+        .section { padding: 40px 0; }
+        .viz-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 30px; }
+        .viz-card { border: 1px solid #ddd; padding: 20px; border-radius: 5px; }
+        .viz-card img { width: 100%; height: auto; }
+        footer { background: #2c3e50; color: white; padding: 20px 0; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏥 Medical Data Visualizer</h1>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Data Analysis Project</h1>
+            <p>Visualizing cardiovascular disease correlations using Python</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>📊 Visualizations</h2>
+            <div class="viz-grid">
+                <div class="viz-card">
+                    <h3>Categorical Analysis</h3>
+                    <img src="assets/catplot.png" alt="Categorical Plot">
+                    <p>Distribution of health factors by cardiovascular disease status</p>
+                </div>
+                <div class="viz-card">
+                    <h3>Correlation Heatmap</h3>
+                    <img src="assets/heatmap.png" alt="Heatmap">
+                    <p>Correlations between medical variables</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Project by [Your Name] | GitHub: <a href="#" style="color: white;">github.com/yourusername</a></p>
+        </div>
+    </footer>
+</body>
+</html>
